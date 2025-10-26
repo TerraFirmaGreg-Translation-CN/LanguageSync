@@ -11,6 +11,6 @@ import java.io.IOException;
 @Slf4j
 class BaseCommand {
 
-    @CommandLine.Option(names = {"-w", "--workspace"})
+    @CommandLine.Option(names = {"-w", "--workspace"}, required = true, description = "The folder where stored the Tools-Modern.")
     protected String workspace;
 }

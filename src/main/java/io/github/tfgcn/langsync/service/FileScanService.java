@@ -93,7 +93,6 @@ public class FileScanService {
         }
 
         Path workspacePath = Paths.get(workspace.getCanonicalPath());
-        log.warn("Set workspace to: {}", workspacePath);
 
         // 移除路径首个 "/" ，确保输入的是相对路径
         String sourceFilePattern;
