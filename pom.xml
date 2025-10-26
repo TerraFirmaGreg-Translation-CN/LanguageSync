@@ -123,7 +123,7 @@
     </dependencies>
 
     <build>
-        <finalName>transsync-${project.version}</finalName>
+        <finalName>langsync-${project.version}</finalName>
 
         <plugins>
             <plugin>
